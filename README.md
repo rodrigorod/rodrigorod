@@ -1,3 +1,4 @@
+```php
 <?php
 
 namespace RodrigoRodrigues;
@@ -60,4 +61,5 @@ class About extends Me
         ];
     }
 }
+```
 
