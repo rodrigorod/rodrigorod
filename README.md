@@ -1,8 +1,63 @@
-- 👋 Hi, I’m Rodrigo Rodrigues
-- 👀 I’m interested in your mom (jk)
-- 🌱 I’m currently learning Symfony
+<?php
 
-<!---
-rodrigorod/rodrigorod is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+namespace RodrigoRodrigues;
+
+class About extends Me
+{
+    public function getAge(): int 
+    {
+        return 17;
+    }
+
+    public function getHobbies(): array
+    {
+        return [
+            'hobbies' => [
+                'cars' => ['f1', 'japanese cars (mazda mx-5 enthusiast)'],
+                'video-games' => ['asseto-corsa', 'minecraft', 'apex', '...'],
+                'drifting',
+                'legos :)'
+            ]
+        ];
+    }
+
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'Liip',
+                'position' => 'Apprentice'         
+            ]
+        ];
+    }
+
+    public function getDailyKnowledge(): array
+    {
+        return [
+            HTML::class
+            Php::class,
+            Symfony::class,
+            Laravel::class,
+            Javascript::class,
+            Vuejs::class,
+            CSS::Class
+            TailwindCss::class,
+            Sass::class,
+            MySQL::class,
+            Java::class,
+            Python::class,
+            
+        ];
+    }
+
+    public function getFutureGoal(): array
+    {
+        return [
+            'goals' => [
+                'Contribute to open source',
+                'Being a backend expert (Symfony, PHP, ...)'         
+            ]
+        ];
+    }
+}
+
