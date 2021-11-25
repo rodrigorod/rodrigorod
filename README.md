@@ -35,19 +35,31 @@ class About extends Me
     public function getDailyKnowledge(): array
     {
         return [
-            HTML::class
-            Php::class,
-            Symfony::class,
-            Laravel::class,
-            Javascript::class,
-            Vuejs::class,
-            CSS::Class
-            TailwindCss::class,
-            Sass::class,
-            MySQL::class,
-            Java::class,
-            Python::class,
+            'frontend' => [
+                HTML::class
+                CSS::Class
+                Javascript::class,
+                Vuejs::class,
+                NuxtJS::class,
+                ThreeJS::class,
+                TailwindCss::class,
+                Sass::class,
+            ],
             
+            'backend' => [
+                PHP::class,
+                Symfony::class,
+                Django::class,
+                Laravel::class,
+                MySQL::class,
+            ],
+
+            'other' => [
+                Java::class,
+                Python::class,
+                Firebase::class,
+                Supabase::class,
+            ]          
         ];
     }
 
