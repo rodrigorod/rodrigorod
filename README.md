@@ -40,6 +40,7 @@ class About extends Me
                 CSS::Class
                 Javascript::class,
                 Vuejs::class,
+                Vuex::class
                 NuxtJS::class,
                 ThreeJS::class,
                 TailwindCss::class,
