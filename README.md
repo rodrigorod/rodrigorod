@@ -60,6 +60,8 @@ class About extends Me
                 Python::class,
                 Firebase::class,
                 Supabase::class,
+                GitlabCI::class,
+                Docker::class
             ]          
         ];
     }
