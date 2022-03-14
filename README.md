@@ -7,7 +7,7 @@ class About extends Me
 {
     public function getAge(): int 
     {
-        return 17;
+        return 18;
     }
 
     public function getHobbies(): array
