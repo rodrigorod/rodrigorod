@@ -37,7 +37,7 @@ class About extends Me
         return [
             'frontend' => [
                 HTML::class
-                CSS::Class
+                CSS::class
                 Javascript::class,
                 Vuejs::class,
                 Vuex::class
