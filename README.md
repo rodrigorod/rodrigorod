@@ -16,6 +16,7 @@ class About extends Me
             'hobbies' => [
                 'cars' => ['f1', 'japanese cars (mazda mx-5 enthusiast)'],
                 'video-games' => ['asseto-corsa', 'minecraft', 'apex', '...'],
+                'music',
                 'drifting',
                 'legos :)'
             ]
