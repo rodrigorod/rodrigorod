@@ -9,6 +9,13 @@ class About extends Me
     {
         return 18;
     }
+    
+    public function getMedias(): array
+    {
+        return [
+            'linkedin' => 'https://www.linkedin.com/in/rodrigo-carraco-rodrigues-310485247/'
+        ]
+    }
 
     public function getHobbies(): array
     {
