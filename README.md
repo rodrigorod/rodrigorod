@@ -51,6 +51,7 @@ class About extends Me
                 ThreeJS::class,
                 TailwindCss::class,
                 Sass::class,
+                SymfonyUX::class,
                 Twig::class,
                 Blade::class
             ],
