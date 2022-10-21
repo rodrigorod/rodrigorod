@@ -21,11 +21,9 @@ class About extends Me
     {
         return [
             'hobbies' => [
-                'cars' => ['f1', 'japanese cars (mazda mx-5 enthusiast)'],
-                'video-games' => ['asseto-corsa', 'minecraft', 'apex', '...'],
-                'music',
-                'drifting',
-                'legos :)'
+                'cars' => ['f1', 'japanese cars (mazda mx-5 enthusiast)', 'drifting', 'WRC'],
+                'music' => ['vinyls'],
+                'legos (i don\'t care if you think it\'s childish)'
             ]
         ];
     }
@@ -53,6 +51,8 @@ class About extends Me
                 ThreeJS::class,
                 TailwindCss::class,
                 Sass::class,
+                Twig::class,
+                Blade::class
             ],
             
             'backend' => [
@@ -61,6 +61,7 @@ class About extends Me
                 Django::class,
                 Laravel::class,
                 MySQL::class,
+                ApiDevelopment::class
             ],
 
             'other' => [
@@ -69,7 +70,8 @@ class About extends Me
                 Firebase::class,
                 Supabase::class,
                 GitlabCI::class,
-                Docker::class
+                Docker::class,
+                MongoDB::class
             ]          
         ];
     }
