@@ -7,7 +7,7 @@ class About extends Me
 {
     public function getAge(): int 
     {
-        return 18;
+        return 19;
     }
     
     public function getMedias(): array
