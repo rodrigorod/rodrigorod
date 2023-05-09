@@ -22,8 +22,7 @@ class About extends Me
         return [
             'hobbies' => [
                 'cars' => ['f1', 'japanese cars (mazda mx-5 enthusiast)', 'drifting', 'WRC'],
-                'music' => ['vinyls'],
-                'legos (i don\'t care if you think it\'s childish)'
+                'music',
             ]
         ];
     }
@@ -42,16 +41,12 @@ class About extends Me
     {
         return [
             'frontend' => [
-                HTML::class
-                CSS::class
                 Javascript::class,
                 Vuejs::class,
-                Vuex::class
                 NuxtJS::class,
                 ThreeJS::class,
                 TailwindCss::class,
                 Sass::class,
-                SymfonyUX::class,
                 Twig::class,
                 Blade::class
             ],
