@@ -7,7 +7,7 @@ class About extends Me
 {
     public function getAge(): int 
     {
-        return 19;
+        return 20;
     }
     
     public function getMedias(): array
@@ -32,7 +32,7 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'Liip',
-                'position' => 'Apprentice'         
+                'position' => 'Symfony Developer'         
             ]
         ];
     }
@@ -67,7 +67,6 @@ class About extends Me
                 Supabase::class,
                 GitlabCI::class,
                 Docker::class,
-                MongoDB::class
             ]          
         ];
     }
