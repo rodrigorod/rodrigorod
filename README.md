@@ -27,16 +27,6 @@ class About extends Me
         ];
     }
 
-    public function getCurrentWorkplace(): array
-    {
-        return [
-            'workplace' => [
-                'company' => 'Liip',
-                'position' => 'Symfony Developer'         
-            ]
-        ];
-    }
-
     public function getDailyKnowledge(): array
     {
         return [
